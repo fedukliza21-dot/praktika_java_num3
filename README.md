@@ -54,3 +54,21 @@ praktika_java_num3
 В каждой папке одни и те же четыре файла:
 
 - `Student.java`: элемент картотеки,
+- `Node.java`: узел списка
+- `StudentList.java`: сам список (добавление, удаление, вывод, очистка, проверка на пустоту)
+- `Tester.java`: класс с `main` и меню
+
+Нумерация студентов в меню идёт с 1. Запись списка в файл и чтение из файла не делались, в задании они помечены как необязательные.
+
+## Как запустить
+
+В IntelliJ IDEA: открыть папку проекта и запустить `main` в `MergeTest` (задание 9) или в `Tester` нужной папки (задание 17).
+
+Из консоли, из корня репозитория:
+
+```
+javac -encoding UTF-8 praktika09/task03/*.java
+java praktika09.task03.MergeTest
+
+javac -encoding UTF-8 praktika17/task01/*.java
+java praktika17.task01.Tester
